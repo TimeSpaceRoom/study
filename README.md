@@ -271,12 +271,6 @@ export default App;
 - Drawer과 Tab.Group 사용처 소개
 src/pages/Delivery.tsx
 ```typescript jsx
-
-```
-- Navigator는 nesting 가능
-## 회원가입, 로그인 화면 만들기
-src/components/DismissKeyBoardView.tsx
-```typescript jsx
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Complete from './Complete';
@@ -299,6 +293,11 @@ function Delivery() {
 
 export default Delivery;
 
+```
+- Navigator는 nesting 가능
+## 회원가입, 로그인 화면 만들기
+src/components/DismissKeyBoardView.tsx
+```typescript jsx
 import React from 'react';
 import {
   TouchableWithoutFeedback,
