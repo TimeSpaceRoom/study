@@ -336,7 +336,7 @@ npm i react-native-keyboard-aware-scrollview
 - react-native-keyboard-aware-scroll-view 라이브러리는 타입이 있음
 
 types/react-native-keyboard-aware-scroll-view
-```
+```typescript jsx
 declare module 'react-native-keyboard-aware-scrollview' {
   import * as React from 'react';
   import {Constructor, ViewProps} from 'react-native';
@@ -461,7 +461,7 @@ const 값 = await EncryptedStorage.getItem('키');
 - 그 외에 유지만 되면 데이터들은 async-storage에 저장(npm install @react-native-async-storage/async-storage)
 
 src/pages/SignUp.tsx, src/pages/SignIn.tsx
-```
+```typescript jsx
 import React, {useCallback, useRef, useState} from 'react';
 import {
   ActivityIndicator,
@@ -654,7 +654,7 @@ const styles = StyleSheet.create({
 export default SignUp;
 
 ```
-```
+```typescript jsx
 import React, {useCallback, useRef, useState} from 'react';
 import {
   Alert,
@@ -897,7 +897,7 @@ AppInner.tsx
 
 ## 로그아웃
 src/pages/Settings.tsx
-```
+```typescript
 import React, {useCallback} from 'react';
 import {Alert, Pressable, StyleSheet, Text, View} from 'react-native';
 import axios, {AxiosError} from 'axios';
